@@ -1,0 +1,29 @@
+bin/
+obj/
+*.exe
+*.dll
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+*.swp
+*.sln.iml
+
+# Publish folder
+/app/publish/
+
+# App settings (bảo mật)
+appsettings.json
+appsettings.*.json
+
+# Secret keys
+secrets.json
